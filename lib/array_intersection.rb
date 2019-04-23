@@ -1,6 +1,6 @@
 # Returns a new array to that contains elements in the intersection of the two input arrays
-# Time complexity: ?
-# Space complexity: ?
+# Time complexity: O(n^2) because there are nested loops and n is the length of the input array
+# Space complexity: O(n), because a 3rd array is being created
 def intersection(array1, array2)
   # raise NotImplementedError
   intersections = []
